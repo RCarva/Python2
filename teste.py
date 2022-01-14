@@ -19,7 +19,7 @@ class UFRJ:
 
 
 
-class Materia:
+class Materia(UFRJ):
     def __init__(self, nome, vagas=0):
         self.nome = nome
         self.vagas = vagas
